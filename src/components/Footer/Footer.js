@@ -31,14 +31,13 @@ function Footer() {
         <FooterLinkItems>
           <FooterLinkTitle>CONTACT</FooterLinkTitle>
         </FooterLinkItems>
-
-        <FooterLinkItems>
+        {/* <FooterLinkItems>
           <a href="tel:+91 918086353669">918086353669</a>
-        </FooterLinkItems>
+        </FooterLinkItems> */}
         <FooterLinkItems>
           <a href="mailto:shanookhaali@gmail.com">shanookhaali@gmail.com</a>
         </FooterLinkItems>
-        <SocialMediaWrap>
+        {/* <SocialMediaWrap>
           <SocialIcons>
             <SocialIconLink
               href="https://www.linkedin.com/in/swalihmohammed/"
@@ -48,7 +47,7 @@ function Footer() {
               <FaLinkedin />
             </SocialIconLink>
           </SocialIcons>
-        </SocialMediaWrap>
+        </SocialMediaWrap> */}
       </FooterLinksWrapper>
     </FooterContainer>
   );

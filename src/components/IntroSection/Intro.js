@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaLinkedin } from "react-icons/fa";
+import { FaLink } from "react-icons/fa";
+
 import { Container, Button } from "../../globalStyles";
 import {
   InfoSec,
@@ -10,6 +13,8 @@ import {
   Heading,
   Subtitle,
   ImgWrapper,
+  SocialIcons,
+  SocialIconLink,
   Img
 } from "./Intro.elements";
 
@@ -31,7 +36,7 @@ function IntroSection({
           <InfoRow imgStart={imgStart}>
             <InfoColumn>
               <ImgWrapper start={start}>
-                <Img src={img} alt={alt} style={{ borderRadius: 5 }} />
+                <Img src={img} alt={alt} />
               </ImgWrapper>
             </InfoColumn>
             <InfoColumn>
@@ -41,8 +46,55 @@ function IntroSection({
                 </TopLine>
                 <Heading lightText={lightText}>Shanookha Ali</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  I am a mathematics teacher passionate about making the world of
+                  mathematics accessible and relevant to all students. I have working
+                  experience in research and teaching. I have published 3 journal papers.
+                  Moreover, I am a author of a books in Fuzzy graph theory, and 2 chapter
+                  books. I am currently working as Assistant Professor of mathematics in
+                  CVR College of engineering, Hyderabad. My objectives are to excel in
+                  my field through hard work, research, skills and perseverance. My
+                  medium term objective is to be a leader in fuzzy graph theory and its
+                  real time applications, while the long term career goal is to do good
+                  mathematics and be of service to humanity.
                 </Subtitle>
+                <div style={{ display: "flex", flexDirection: "row" }} >
+                  <SocialIcons>
+                    <SocialIconLink
+                      href="https://www.scopus.com/authid/detail.uri?authorId=57203546141"
+                      target="_blank"
+                      aria-label="FaLink"
+                    >
+                      <FaLink />
+                    </SocialIconLink>
+                  </SocialIcons>
+                  <SocialIcons>
+                    <SocialIconLink
+                      href=" https://www.orcid.org/0000-0001-8720-3764"
+                      target="_blank"
+                      aria-label="FaLink"
+                    >
+                      <FaLink />
+                    </SocialIconLink>
+                  </SocialIcons>
+                  <SocialIcons>
+                    <SocialIconLink
+                      href="https://scholar.google.com/citations?user=N1y6JfoAAAAJ&hl=en&oi=ao"
+                      target="_blank"
+                      aria-label="FaLink"
+                    >
+                      <FaLink />
+                    </SocialIconLink>
+                  </SocialIcons>
+                  <SocialIcons>
+                    <SocialIconLink
+                      href="https://www.linkedin.com/in/shanookha-ali"
+                      target="_blank"
+                      aria-label="LinkedIn"
+                    >
+                      <FaLinkedin />
+                    </SocialIconLink>
+                  </SocialIcons>
+                </div>
               </TextWrapper>
             </InfoColumn>
           </InfoRow>

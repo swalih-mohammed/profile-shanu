@@ -39,7 +39,7 @@ function InfoSection({
             <InfoColumn>
               <TextWrapper>
                 <SectionTitle lightText={lightText}>
-                  Book and book chaper Published
+                  Book and Book Chapter Published
                 </SectionTitle>
                 {data?.map((data, key) => {
                   return (

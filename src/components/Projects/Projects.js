@@ -59,6 +59,7 @@ function InfoSection({
                 </>
               );
             })}
+
           </TextWrapper>
           {/* </InfoRow> */}
         </Container>
