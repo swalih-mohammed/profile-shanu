@@ -43,36 +43,19 @@ function InfoSection({
             {ProjectData.map((data, key) => {
               return (
                 <>
-                  <InfoRow >
-                    <ImgWrapper start={start}>
-                      <Img src={data.img} alt={alt} />
-                    </ImgWrapper>
-                    <div>
-                      <TopLine lightTopLine={lightTopLine}>
-                        {data.topLine}
-                      </TopLine>
-                      <Heading lightText={lightText}>{data.heading}</Heading>
-                      <Subtitle lightTextDesc={lightTextDesc}>
-                        {data.description}
-                      </Subtitle>
+                  <div>
+                    <TopLine lightTopLine={lightTopLine}>
+                      {data.topLine}
+                    </TopLine>
+                    <Heading lightText={lightText}>{data.heading}</Heading>
+                    <Subtitle lightTextDesc={lightTextDesc}>
+                      {data.description}
+                    </Subtitle>
 
-                      <Subtitle lightTextDesc={lightTextDesc}>
-                        {data.demo ? (
-                          <>
-                            <span style={{ paddingRight: "10px" }}>
-                              Find a live demo app
-                            </span>
-
-                            <a href={data.demo} target="_blank">
-                              <FaExternalLinkAlt />
-                            </a>
-                          </>
-                        ) : null}
-
-                      </Subtitle>
-                    </div>
-                  </InfoRow>
-
+                    <Subtitle lightTextDesc={lightTextDesc}>
+                      Test
+                    </Subtitle>
+                  </div>
                 </>
               );
             })}

@@ -5,7 +5,7 @@ export const homeObjOne = {
   lightText: false,
   lightTextDesc: false,
   imgStart: "",
-  img: require("../../images/profile_3.jpg"),
+  img: require("../../images/profile_shanu.jpg"),
   alt: "Credit Card",
   start: ""
 };

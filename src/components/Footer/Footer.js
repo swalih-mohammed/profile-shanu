@@ -33,20 +33,13 @@ function Footer() {
         </FooterLinkItems>
 
         <FooterLinkItems>
-          <a href="tel:+91 9502768482">9502768482</a>
+          <a href="tel:+91 918086353669">918086353669</a>
         </FooterLinkItems>
         <FooterLinkItems>
-          <a href="mailto:swalihvpm@gmail.com">swalihvpm@gmail.com</a>
+          <a href="mailto:shanookhaali@gmail.com">shanookhaali@gmail.com</a>
         </FooterLinkItems>
         <SocialMediaWrap>
           <SocialIcons>
-            <SocialIconLink
-              href="https://github.com/swalih-mohammed"
-              target="_blank"
-              aria-label="Instagram"
-            >
-              <FaGithub />
-            </SocialIconLink>
             <SocialIconLink
               href="https://www.linkedin.com/in/swalihmohammed/"
               target="_blank"
