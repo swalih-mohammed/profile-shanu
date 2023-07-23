@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c98c3f3245809c88c3b628813f91c905",
+    "revision": "23349eadf21aec71c5f0300f329786e9",
     "url": "/index.html"
   },
   {
-    "revision": "5e43420f6520a3afa594",
-    "url": "/static/js/2.eca8b71d.chunk.js"
+    "revision": "35454ccaddc8a2ff5bfe",
+    "url": "/static/js/2.299c5fb4.chunk.js"
   },
   {
     "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/static/js/2.eca8b71d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.299c5fb4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "faeaa10f2f0a45181590",
-    "url": "/static/js/main.9d767894.chunk.js"
+    "revision": "d74698009bb66a119e9e",
+    "url": "/static/js/main.46b3a6ea.chunk.js"
   },
   {
     "revision": "5dcc4a2d51d1022f96e5",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nlp_app.072e7805.png"
   },
   {
-    "revision": "a65287f04b7caf76381519707f0045e8",
-    "url": "/static/media/profile_3.a65287f0.jpg"
+    "revision": "4b0941e8fc0514161deb3f8c6bba4730",
+    "url": "/static/media/profile_shanu.4b0941e8.jpg"
   },
   {
     "revision": "21e1b60ba430ae424b3904703a42ed6f",
